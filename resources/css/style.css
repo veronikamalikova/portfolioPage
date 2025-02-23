@@ -1,0 +1,117 @@
+/* Universal Styles */
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #1d1b1b;
+    color: #ffffff;
+}
+
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* For all parts that are currently in progress */
+.in-progress {
+    font-style: italic;
+    color: magenta;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content (Body) */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 80px;
+    gap: 40px;
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+main section {
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+footer #copyright {
+    font-size: 14px;
+}
+
+footer .contact-links {
+    text-align: right;
+}
+
+footer .contact-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+footer .contact-links a:hover {
+    text-decoration: underline;
+}
+
+footer #email {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 10px; /* Space between the links */
+}
+
+footer .icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
