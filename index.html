@@ -2,26 +2,30 @@
 <html>
     
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Veronika's Portfolio</title>
-        <meta name="description" content="Veronika's Portfolio">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./resources/css/reset.css">
         <link rel="stylesheet" href="./resources/css/style.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Veronika's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Veronika's Portfolio</title>
     </head>
     
     <body>
-        
         <header>
-            <h1 id="title">Veronika's Portfolio</h1>
+            <h1 id="title"><a href="#">Veronika's Portfolio</a></h1>
             <nav>
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-projects">My Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li class="icon"><a href="https://github.com/veronikamalikova" target="_blank" rel="noopener noreferrer">Github</a></li>
-                    <li class="icon"><a href="https://www.linkedin.com/in/veronika-malikova/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <div>
+                        <li class="icon"><a href="https://github.com/veronikamalikova" target="_blank" rel="noopener noreferrer"><img src="./resources/images/icons/github-logo-white.png" alt="github loto"></a></li>
+                        <li class="icon"><a href="https://www.linkedin.com/in/veronika-malikova/" target="_blank" rel="noopener noreferrer"><img src="./resources/images/icons/linkedin-logo-white.png" alt="linkedin logo"></a></li>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -37,6 +41,9 @@
                     <img id="my-photo" src="./resources/images/personal/illustrative-photo-not-me.jpg" alt="illustrative photo">
                 </div>
             </section>
+
+            <hr>
+            
             <section id="my-projects">
                 <h2>My Projects</h2>
                 <p>A little section with my projects.</p>
@@ -87,12 +94,14 @@
                 </div>
             </section>
             
+            <hr>
+
             <section id="contact">
                 <h2>Contact Me</h2>
                 <p>A little section that will make it easy for you to contact me.</p>
                 <p class="in-progress">Currently work in progress.</p>
                 <p>In the meantime feel free to email me on <a href="mailto:veronica.malikova@gmail.com">veronica.malikova@gmail.com</a> in case you'd like to chat.</p>
-                <!-- <form action="" method="POST">
+                <form action="" method="POST">
                     <h3>Fill In Your Message And Info</h3>
                     <p>And I will reply as soon as I can :)</p>
                     <label for="name">Name:</label>
@@ -105,18 +114,18 @@
                     <textarea name="message" id="message" cols="30" rows="5"></textarea>
                     <br>
                     <input type="submit" value="Send" id="submitBtn">
-                </form> -->
+                </form>
             </section>
         </main>
         
         <footer>
             <div id="copyright">Copyright &copy; 2025 Veronika Malikova</div>
             <div class="contact-links">
-                <div id="email"><a href="mailto:veronica.malikova@gmail.com">veronica.malikova@gmail.com</a></div>
-                <ul class="icons">
-                    <li><a href="https://github.com/veronikamalikova" target="_blank" rel="noopener noreferrer">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/veronika-malikova/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <ul>
+                    <li class="icon"><a href="https://github.com/veronikamalikova" target="_blank" rel="noopener noreferrer"><img src="./resources/images/icons/github-logo-white.png" alt="github loto"></a></li>
+                    <li class="icon"><a href="https://www.linkedin.com/in/veronika-malikova/" target="_blank" rel="noopener noreferrer"><img src="./resources/images/icons/linkedin-logo-white.png" alt="linkedin logo"></a></li>
                 </ul>
+                <div id="email"><a href="mailto:veronica.malikova@gmail.com">veronica.malikova@gmail.com</a></div>
             </div>
         </footer>
 
