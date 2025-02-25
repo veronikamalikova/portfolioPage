@@ -212,6 +212,26 @@ main a:hover {
     padding: 10px;
 }
 
+form {
+    margin: 30px 120px 30px 120px;
+    padding: 10px;
+    background-color:#243447
+}
+
+form h3 {
+    font-style: italic;
+}
+
+form p {
+    font-style: italic;
+    font-size: 12px;
+}
+
+form div {
+    padding: 10px;
+    font-size: 12px;
+}
+
 /* Footer */
 footer {
     background-color: #243447;
