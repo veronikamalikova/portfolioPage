@@ -232,6 +232,13 @@ form div {
     font-size: 12px;
 }
 
+
+#submitBtn {
+    background-color: #141d26;
+    color: white;
+    padding: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #243447;
